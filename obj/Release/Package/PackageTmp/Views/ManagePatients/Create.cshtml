@@ -1,0 +1,123 @@
+﻿@model HospitalManagament.User
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="white-box">
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+            @using (Html.BeginForm("Create", "ManagePatients", FormMethod.Post,
+                             new { enctype = "multipart/form-data", data_toggle="validator" }))
+            {
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="control-label">Full Name</label>
+                    @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="control-label">Patient ID</label>
+                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", @required = "required", @type = "text" } })
+                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Email</label>
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @required = "required", @type = "email" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Password</label>
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @required = "required", @type = "password" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">NRIC</label>
+                    @Html.EditorFor(model => model.NRIC, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.NRIC, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Age</label>
+                    @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">ContactNo</label>
+                    @Html.EditorFor(model => model.ContactNo, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.ContactNo, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Gender</label>
+                    <div>
+                        <label class="radio-inline">
+                            @Html.RadioButtonFor(u => u.Gender, "Male", new { @class = "form-control", @checked = true, @id = "Male" })
+                        </label> <label for="Male">Male</label>
+                        <label class="radio-inline">
+                            @Html.RadioButtonFor(u => u.Gender, "Female", new { @class = "form-control", @id = "Female" })
+                        </label> <label for="Female">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Occupation</label>
+                    @Html.EditorFor(model => model.Patient.Occupation, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Patient.Occupation, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Illness</label>
+                    @Html.EditorFor(model => model.Patient.Disease, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Patient.Disease, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="control-label">Entry Date</label>
+                    <div class="input-group">
+                        @Html.EditorFor(model => model.Patient.EntryDateStr, new { htmlAttributes = new { @class = "form-control mydatepicker", @required = "required", @type = "text" } })
+                        <span class="input-group-addon"><i class="icon-calender"></i></span>
+                    </div>
+                    @Html.ValidationMessageFor(model => model.Patient.EntryDateStr, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="control-label">Entry Time</label>
+                    <div class="input-group clockpicker" data-placement="bottom" data-align="top" data-autoclose="true">
+                        @Html.EditorFor(model => model.Patient.EntryTime, new { htmlAttributes = new { @class = "form-control", @required = "required", @type = "text" } })
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-time"></span> </span>
+                    </div>
+                    @Html.ValidationMessageFor(model => model.Patient.EntryTime, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Address</label>
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="control-label">Profile Description</label>
+                    @Html.EditorFor(model => model.Comments, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Comments, "", new { @class = "text-danger" })
+                </div>
+                <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Create</button>
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-success waves-effect waves-light m-r-10" })
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+
+        // Set current time
+        var fullDate = new Date();
+        var time = ((fullDate.getHours() > 9) ? fullDate.getHours() : "0" + fullDate.getHours()) + ":" + ((fullDate.getMinutes() > 9) ? fullDate.getMinutes() : "0" + fullDate.getMinutes());
+
+        $('.clockpicker input').val(time);
+
+        // Set current date
+
+        var twoDigitMonth = ((fullDate.getMonth().length + 1) === 1) ? (fullDate.getMonth() + 1) : '0' + (fullDate.getMonth() + 1);
+
+        var twoDigitDate = fullDate.getDate() + ""; if (twoDigitDate.length == 1) twoDigitDate = "0" + twoDigitDate;
+        var currentDate = twoDigitMonth + "/" + twoDigitDate + "/" + fullDate.getFullYear(); console.log(currentDate);
+
+        $('.mydatepicker').val(currentDate);
+
+    </script>
+}

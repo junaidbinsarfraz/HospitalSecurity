@@ -1,0 +1,67 @@
+﻿@using HospitalManagament.Models
+@model HospitalManagament.Models.SignupModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<div class="login-box">
+    <div class="white-box">
+        @using reCAPTCHA.MVC
+        @using (Html.BeginForm("Register", "Home", FormMethod.Post, new { @class = "form-horizontal form-material", @id = "registerform", data_toggle = "validator" }))
+        {
+            <a href="javascript:void(0)" class="text-center db"><img src="../plugins/images/eliteadmin-logo-dark.png" alt="Home" /><br /><img src="../plugins/images/eliteadmin-text-dark.png" alt="Home" /></a>
+
+            <div class="form-group m-t-20">
+                <div class="col-xs-12">
+                    @Html.TextBoxFor(u => u.Email, new { @class = "form-control", @placeholder = "Email", @required = "required", @type = "email" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.PasswordFor(u => u.Password, new { @class = "form-control", @placeholder = "Password", @required = "required" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.PasswordFor(u => u.ConfirmPassword, new { @class = "form-control", @placeholder = "Confirm Password", @required = "required" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.TextBoxFor(u => u.ContactNo, new { @class = "form-control", @placeholder = "Contact No. +923215761206", @required = "required" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.DropDownListFor(m => m.signupAs,
+                    new SelectList(Enum.GetValues(typeof(SignupAs))),
+                 "Select Signup As", new { @class = "form-control", @placeholder = "Confirm Password", @required = "required" })
+                </div>
+            </div>
+            @*<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>*@
+            @*<div class="g-recaptcha" data-sitekey="6LdBXCQUAAAAAL6LpxH874tlfEwSasuJWn5cBCcG"></div>*@
+            @Html.Recaptcha()
+            @*@Html.ValidationMessage("ReCaptcha")*@
+            <div style="color:red; margin-top: 0.5em;">
+                @Html.ValidationSummary()
+            </div>
+            <div class="form-group text-center m-t-20">
+                <div class="col-xs-12">
+                    <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Register</button>
+                </div>
+            </div>
+            <div class="form-group m-b-0">
+                <div class="col-sm-12 text-center">
+                    <p>Already have an 	account? <a href="~/Home/Login" class="text-primary m-l-5"><b>Sign In</b></a></p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section Scripts {
+
+    <script>
+
+
+    </script>
+}

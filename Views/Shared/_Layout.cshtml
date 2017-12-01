@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/plugins/images/favicon.png">
+    <title>Elite Hospital Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <script src="~/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <link href="~/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="~/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- morris CSS -->
+    <link href="~/plugins/bower_components/morrisjs/morris.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="~/css/animate.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="~/css/colors/megna.css" id="theme" rel="stylesheet">
+    <link href="~/plugins/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <!-- Page plugins css -->
+    <link href="~/plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.css" rel="stylesheet">
+    <!-- Color picker plugins css -->
+    <link href="~/plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css" rel="stylesheet">
+    <!-- Date picker plugins css -->
+    <link href="~/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+    <!-- Daterange picker plugins css -->
+    <link href="~/plugins/bower_components/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="~/plugins/bower_components/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Calendar CSS -->
+    <link href="~/plugins/bower_components/calendar/dist/fullcalendar.css" rel="stylesheet" />
+    <link href="~/plugins/bower_components/calendar/dist/fullcalendar.print.css" media="print" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="~/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    @RenderSection("Style", false)
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header">
+                <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+                <div class="top-left-part"><a class="logo" href="javascript:void(0)"><b><img src="~/plugins/images/eliteadmin-logo.png" alt="home" /></b><span class="hidden-xs"><strong>elite</strong>hospital</span></a></div>
+                <ul class="nav navbar-top-links navbar-left hidden-xs">
+                    <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
+                    <li>
+                        @*<form role="search" class="app-search hidden-xs">
+                                <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a>
+                            </form>*@
+                    </li>
+                </ul>
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <!-- /.dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="~/plugins/images/users/d1.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">@Html.Raw(((HospitalManagament.User)HttpContext.Current.Session["LoggedInUser"]).FullName)</b> </a>
+                        <ul class="dropdown-menu dropdown-user animated flipInY">
+                            @if (HttpContext.Current.Session["Role"] == "Patient")
+                            {
+                                <li><a href="/Patient/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Doctor")
+                            {
+                                <li><a href="/Doctor/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Caregiver")
+                            {
+                                <li><a href="/Caregiver/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Patient" || HttpContext.Current.Session["Role"] == "Doctor")
+                            {
+                                <li><a href="/Message/Index"><i class="ti-email"></i>  Messages</a></li>
+                            }
+                            <li><a href="/Home/LogOut?ajax=false"><i class="fa fa-power-off"></i>  Logout</a></li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <li class="right-side-toggle"> <a class="waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- Left navbar-header -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search hidden-sm hidden-md hidden-lg">
+                        <!-- input-group -->
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search..."> <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"> <i class="fa fa-search"></i> </button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li class="user-pro">
+                        <a href="#" class="waves-effect">
+                            <img src="~/plugins/images/users/d1.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">@Html.Raw(((HospitalManagament.User)HttpContext.Current.Session["LoggedInUser"]).FullName)<span class="fa arrow"></span></span>
+                        </a>
+                        <ul class="nav nav-second-level collapse">
+                            @if (HttpContext.Current.Session["Role"] == "Patient")
+                            {
+                                <li><a href="/Patient/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Doctor")
+                            {
+                                <li><a href="/Doctor/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Caregiver")
+                            {
+                                <li><a href="/Caregiver/Index"><i class="ti-user"></i>  My Profile</a></li>
+                            }
+                            @if (HttpContext.Current.Session["Role"] == "Patient" || HttpContext.Current.Session["Role"] == "Doctor")
+                            {
+                                <li><a href="/Message/Index"><i class="ti-email"></i>  Messages</a></li>
+                            }
+                            <li><a href="/Home/LogOut?ajax=false"><i class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                    </li>
+
+                    @{
+                        if (HttpContext.Current.Session["Role"] == "Admin")
+                        {
+                            <li class="nav-small-cap m-t-10">--- Main Menu</li>
+
+                            @*<li> <a href="../Home/Index?param=@HttpContext.Current.Session["TotalPatients"]" class="waves-effect"><i class="ti-dashboard p-r-10"></i> <span class="hide-menu">Dashboard</span></a> </li>*@
+                            <li>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i><span class="hide-menu"> Dashboard <span class="fa arrow"></span></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li> <a href="/Home/Index?param=@HttpContext.Current.Session["TotalPatients"]">General</a> </li>
+                                    <li> <a href="/Home/Security">Security</a> </li>
+                                </ul>
+                            </li>
+                        }
+}
+
+                    @if (HttpContext.Current.Session["Role"] == "Admin")
+                    {
+                        <li class="nav-small-cap m-t-10">--- Management</li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="icon-people p-r-10"></i> <span class="hide-menu"> Users <span class="fa arrow"></span></span></a>
+                            <ul class="nav nav-second-level">
+                                <li> <a href="/ManageUsers/Index">All Users</a> </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="icon-people p-r-10"></i> <span class="hide-menu"> Patients <span class="fa arrow"></span></span></a>
+                            <ul class="nav nav-second-level">
+                                <li> <a href="/ManagePatients/Index">All Patients</a> </li>
+                                <li> <a href="/ManagePatients/Create">Add Patient</a> </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="icon-people p-r-10"></i> <span class="hide-menu"> CareGivers <span class="fa arrow"></span></span></a>
+                            <ul class="nav nav-second-level">
+                                <li> <a href="/ManageCareGivers/Index">All CareGivers</a> </li>
+                                <li> <a href="/ManageCareGivers/Create">Add CareGiver</a> </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="icon-people p-r-10"></i> <span class="hide-menu"> Doctors <span class="fa arrow"></span></span></a>
+                            <ul class="nav nav-second-level">
+                                <li> <a href="/ManageDoctors/Index">All Doctors</a> </li>
+                                <li> <a href="/ManageDoctors/Create">Add Doctor</a> </li>
+                            </ul>
+                        </li>
+                    }
+                    @if (HttpContext.Current.Session["Role"] == "Admin" || HttpContext.Current.Session["Role"] == "Doctor")
+                    {
+                        <li class="nav-small-cap m-t-10">--- Event</li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-calendar p-r-10"></i> <span class="hide-menu"> Events <span class="fa arrow"></span></span></a>
+                            <ul class="nav nav-second-level">
+                                <li> <a href="/ManageEvents/Index">All Events</a> </li>
+                                <li> <a href="/ManageEvents/Create">Add Event</a> </li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+
+            </div>
+        </div>
+        <!-- Left navbar-header end -->
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <h4 class="page-title">Admin Dashboard</h4>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        @RenderBody()
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+                <footer class="footer text-center"> 2017 &copy; EADP Project </footer>
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+    </div>
+    <!-- jQuery -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="~/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="~/js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="~/js/waves.js"></script>
+    <!-- Sparkline chart JavaScript -->
+    <script src="~/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- jQuery peity -->
+    <script src="~/plugins/bower_components/peity/jquery.peity.min.js"></script>
+    <script src="~/plugins/bower_components/peity/jquery.peity.init.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="~/js/custom.min.js"></script>
+    <!-- Validator JavaScript -->
+    <script src="~/js/validator.js"></script>
+    @*<script src="~/js/dashboard1.js"></script>*@
+    <!--Morris JavaScript -->
+    <script src="~/plugins/bower_components/raphael/raphael-min.js"></script>
+    <script src="~/plugins/bower_components/morrisjs/morris.js"></script>
+    <!--Style Switcher -->
+    <script src="~/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="~/plugins/bower_components/datatables/jquery.dataTables.min.js"></script>
+
+    <!-- Calendar JavaScript -->
+    <script src="~/plugins/bower_components/calendar/jquery-ui.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="~/plugins/bower_components/moment/moment.js"></script>
+    <script src='~/plugins/bower_components/calendar/dist/fullcalendar.min.js'></script>
+    @*<script src='~/plugins/bower_components/calendar/dist/cal-init.js'></script>*@
+
+    <!-- Clock Plugin JavaScript -->
+    <script src="~/plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.js"></script>
+    <!-- Color Picker Plugin JavaScript -->
+    <script src="~/plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asColor.js"></script>
+    <script src="~/plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asGradient.js"></script>
+    <script src="~/plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js"></script>
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="~/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <!-- Date range Plugin JavaScript -->
+    <script src="~/plugins/bower_components/timepicker/bootstrap-timepicker.min.js"></script>
+    <script src="~/plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Sweet-Alert  -->
+    <script src="~/plugins/bower_components/sweetalert/sweetalert.min.js"></script>
+
+    <!-- start - This is for export functionality only -->
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <!-- end - This is for export functionality only -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.mydatepicker').datepicker({
+                changeMonth: true,
+                changeYear: true,
+                dateFormat: "dd/mm/yy"
+            });
+
+            $('.clockpicker').clockpicker({
+                donetext: 'Done',
+                'default': 'now'
+
+            }).clockpicker;
+
+            // Add logout code here
+            setTimeout(function () {
+                $.ajax({
+                    url: '@Url.Action("LogOut", "Home")',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: { ajax: true },
+                    success: function (data) {
+                        var location = window.location.href.split('/');
+                        window.location.href = location[0] + '//' + location[2] + "/Home/Login";
+                    },
+                    error: function () {
+                    }
+                });
+            }, 1000 * 60 * 15); // 15 min
+
+            @*window.addEventListener('unload', function (event) {
+                // Send ajax call
+                $.ajax({
+                    url: '@Url.Action("LogOut", "Home")',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: {ajax: true},
+                    success: function (data) {
+                    },
+                    error: function () {
+                    }
+                });
+            });*@
+        });
+
+    </script>
+
+    @RenderSection("Scripts", false)
+
+</body>
+
+</html>

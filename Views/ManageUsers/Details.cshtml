@@ -1,0 +1,89 @@
+﻿@model HospitalManagament.User
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="white-box">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="white-box">
+                <div class="user-bg"> <img alt="user" src="~/plugins/images/big/img3.jpg" width="50%" style="margin-left: 25%"> </div>
+                <div class="user-btm-box">
+                    <!-- .row -->
+                    <div class="row text-center m-t-10">
+                        <div class="col-md-6 b-r">
+                            <strong>Full Name</strong>
+                            <p class="text-muted">@Model.FullName</p>
+                        </div>
+                        <div class="col-md-6">
+                            <strong>Email</strong>
+                            <p class="text-muted">@Model.Email</p>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <hr>
+                    <!-- .row -->
+                    <div class="row text-center m-t-10">
+                        <div class="col-md-6 b-r">
+                            <strong>Name</strong>
+                            <p>@Model.UserName</p>
+                        </div>
+                        <div class="col-md-6">
+                            <strong>Mobile</strong>
+                            <p class="text-muted">@Model.ContactNo</p>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <hr>
+                    <!-- .row -->
+                    <div class="row text-center m-t-10">
+                        <div class="col-md-12">
+                            <strong>Address</strong>
+                            <p>
+                                @Model.Address
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="white-box">
+                <div id="map-canvas" style="width: 100%; height: 480px;"></div>
+            </div>
+        </div>
+    </div>
+    @if (Request.Params["param"] == null)
+    {
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+    }
+</div>
+@section Scripts
+{
+    <!-- Flot Charts JavaScript -->
+    <script src="~/plugins/bower_components/flot/jquery.flot.js"></script>
+    <script src="~/plugins/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+
+    <script type="text/javascript">
+
+        function Initialize() {
+            var uluru = { lat: 1.290270, lng: 103.851959 };
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB4vOOoEeoAhVDDCjJkbgHKDtQ5MU_3k6c&callback=Initialize"></script>
+}

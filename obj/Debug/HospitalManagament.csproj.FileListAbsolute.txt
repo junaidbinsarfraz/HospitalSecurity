@@ -1,0 +1,382 @@
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\HospitalManagament.dll.config
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\HospitalManagament.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\HospitalManagament.pdb
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\Antlr3.Runtime.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\Microsoft.Web.Infrastructure.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\Newtonsoft.Json.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Helpers.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Mvc.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Optimization.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Razor.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.Deployment.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.Razor.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\WebGrease.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Helpers.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Mvc.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Optimization.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.Razor.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.Deployment.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\System.Web.WebPages.Razor.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\Antlr3.Runtime.pdb
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\Newtonsoft.Json.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\obj\Debug\HospitalManagament.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\obj\Debug\HospitalManagament.pdb
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\HospitalManagementDataLayer.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\EntityFramework.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\HospitalManagementDataLayer.pdb
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\EntityFramework.xml
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\EntityFramework.SqlServer.dll
+D:\Freealnce Projects\Marco\Projects\SunMvc\HospitalManagament\HospitalManagament\bin\EntityFramework.SqlServer.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\HospitalManagament.dll.config
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\HospitalManagament.dll
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\HospitalManagament.pdb
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\EntityFramework.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\EntityFramework.SqlServer.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.Helpers.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.Mvc.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.Optimization.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.Razor.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.WebPages.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\System.Web.WebPages.Razor.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\Antlr3.Runtime.pdb
+C:\Users\Intel\Desktop\HospitalManagament (7)\bin\Newtonsoft.Json.xml
+C:\Users\Intel\Desktop\HospitalManagament (7)\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+C:\Users\Intel\Desktop\HospitalManagament (7)\obj\Debug\HospitalManagament.dll
+C:\Users\Intel\Desktop\HospitalManagament (7)\obj\Debug\HospitalManagament.pdb
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\HospitalManagament.dll.config
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\HospitalManagament.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\HospitalManagament.pdb
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\Antlr3.Runtime.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\EntityFramework.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\EntityFramework.SqlServer.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\HospitalManagementDataLayer.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\Microsoft.Web.Infrastructure.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\Newtonsoft.Json.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Helpers.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Mvc.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Optimization.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Razor.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.Deployment.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.Razor.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\WebGrease.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\HospitalManagementDataLayer.pdb
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\EntityFramework.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\EntityFramework.SqlServer.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Helpers.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Mvc.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Optimization.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.Razor.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.Deployment.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\System.Web.WebPages.Razor.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\Antlr3.Runtime.pdb
+E:\Downloads\HospitalManagament (6)\HospitalManagament\bin\Newtonsoft.Json.xml
+E:\Downloads\HospitalManagament (6)\HospitalManagament\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+E:\Downloads\HospitalManagament (6)\HospitalManagament\obj\Debug\HospitalManagament.dll
+E:\Downloads\HospitalManagament (6)\HospitalManagament\obj\Debug\HospitalManagament.pdb
+D:\Junaid\HospitalManagament\bin\HospitalManagament.dll.config
+D:\Junaid\HospitalManagament\bin\HospitalManagament.dll
+D:\Junaid\HospitalManagament\bin\HospitalManagament.pdb
+D:\Junaid\HospitalManagament\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.Security.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.Web.Infrastructure.dll
+D:\Junaid\HospitalManagament\bin\Newtonsoft.Json.dll
+D:\Junaid\HospitalManagament\bin\Owin.dll
+D:\Junaid\HospitalManagament\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Junaid\HospitalManagament\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.xml
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Junaid\HospitalManagament\bin\Microsoft.Owin.Security.xml
+D:\Junaid\HospitalManagament\bin\Microsoft.Web.Infrastructure.xml
+D:\Junaid\HospitalManagament\obj\Debug\HospitalManagament.dll
+D:\Junaid\HospitalManagament\obj\Debug\HospitalManagament.pdb
+C:\Users\Junaid\Downloads\HospitalManagament\bin\HospitalManagament.dll.config
+C:\Users\Junaid\Downloads\HospitalManagament\bin\HospitalManagament.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\HospitalManagament.pdb
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.Security.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Owin.dll
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.xml
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Junaid\Downloads\HospitalManagament\bin\Microsoft.Owin.Security.xml
+C:\Users\Junaid\Downloads\HospitalManagament\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+C:\Users\Junaid\Downloads\HospitalManagament\obj\Debug\HospitalManagament.dll
+C:\Users\Junaid\Downloads\HospitalManagament\obj\Debug\HospitalManagament.pdb
+E:\Github\HospitalManagement\bin\HospitalManagament.dll.config
+E:\Github\HospitalManagement\bin\HospitalManagament.dll
+E:\Github\HospitalManagement\bin\HospitalManagament.pdb
+E:\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Github\HospitalManagement\bin\Microsoft.Owin.dll
+E:\Github\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Github\HospitalManagement\bin\Microsoft.Owin.Security.dll
+E:\Github\HospitalManagement\bin\Newtonsoft.Json.dll
+E:\Github\HospitalManagement\bin\Owin.dll
+E:\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Github\HospitalManagement\bin\Microsoft.Owin.xml
+E:\Github\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Github\HospitalManagement\bin\Microsoft.Owin.Security.xml
+E:\Github\HospitalManagement\bin\Newtonsoft.Json.xml
+E:\Github\HospitalManagement\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+E:\Github\HospitalManagement\obj\Debug\HospitalManagament.dll
+E:\Github\HospitalManagement\obj\Debug\HospitalManagament.pdb
+D:\Junaid\Github\HospitalManagement\bin\HospitalManagament.dll.config
+D:\Junaid\Github\HospitalManagement\bin\HospitalManagament.dll
+D:\Junaid\Github\HospitalManagement\bin\HospitalManagament.pdb
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.Security.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\Junaid\Github\HospitalManagement\bin\Newtonsoft.Json.dll
+D:\Junaid\Github\HospitalManagement\bin\Owin.dll
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.xml
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Owin.Security.xml
+D:\Junaid\Github\HospitalManagement\bin\Newtonsoft.Json.xml
+D:\Junaid\Github\HospitalManagement\bin\Microsoft.Web.Infrastructure.xml
+D:\Junaid\Github\HospitalManagement\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+D:\Junaid\Github\HospitalManagement\obj\Debug\HospitalManagament.dll
+D:\Junaid\Github\HospitalManagement\obj\Debug\HospitalManagament.pdb
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\HospitalManagament.dll.config
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\HospitalManagament.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\HospitalManagament.pdb
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.Security.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Newtonsoft.Json.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Owin.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Owin.Security.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Newtonsoft.Json.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Intel\Downloads\HospitalManagement-master\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+C:\Users\Intel\Downloads\HospitalManagement-master\obj\Debug\HospitalManagament.dll
+C:\Users\Intel\Downloads\HospitalManagement-master\obj\Debug\HospitalManagament.pdb
+E:\GithubNew\HospitalManagement\bin\HospitalManagament.dll.config
+E:\GithubNew\HospitalManagement\bin\HospitalManagament.dll
+E:\GithubNew\HospitalManagement\bin\HospitalManagament.pdb
+E:\GithubNew\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\GithubNew\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.dll
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.Security.dll
+E:\GithubNew\HospitalManagement\bin\Newtonsoft.Json.dll
+E:\GithubNew\HospitalManagement\bin\Owin.dll
+E:\GithubNew\HospitalManagement\bin\reCAPTCHA.MVC.dll
+E:\GithubNew\HospitalManagement\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\GithubNew\HospitalManagement\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.xml
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GithubNew\HospitalManagement\bin\Microsoft.Owin.Security.xml
+E:\GithubNew\HospitalManagement\bin\Newtonsoft.Json.xml
+E:\GithubNew\HospitalManagement\obj\Debug\HospitalManagament.dll
+E:\GithubNew\HospitalManagement\obj\Debug\HospitalManagament.pdb
+D:\Junaid\Github\HospitalSecurity\bin\HospitalManagament.dll.config
+D:\Junaid\Github\HospitalSecurity\bin\HospitalManagament.dll
+D:\Junaid\Github\HospitalSecurity\bin\HospitalManagament.pdb
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.Security.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Web.Infrastructure.dll
+D:\Junaid\Github\HospitalSecurity\bin\Newtonsoft.Json.dll
+D:\Junaid\Github\HospitalSecurity\bin\Owin.dll
+D:\Junaid\Github\HospitalSecurity\bin\reCAPTCHA.MVC.dll
+D:\Junaid\Github\HospitalSecurity\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Owin.Security.xml
+D:\Junaid\Github\HospitalSecurity\bin\Newtonsoft.Json.xml
+D:\Junaid\Github\HospitalSecurity\bin\Microsoft.Web.Infrastructure.xml
+D:\Junaid\Github\HospitalSecurity\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+D:\Junaid\Github\HospitalSecurity\obj\Debug\HospitalManagament.dll
+D:\Junaid\Github\HospitalSecurity\obj\Debug\HospitalManagament.pdb
+E:\GithubNew\HospitalSecurity\bin\HospitalManagament.dll.config
+E:\GithubNew\HospitalSecurity\bin\HospitalManagament.dll
+E:\GithubNew\HospitalSecurity\bin\HospitalManagament.pdb
+E:\GithubNew\HospitalSecurity\bin\JWT.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.Security.dll
+E:\GithubNew\HospitalSecurity\bin\Newtonsoft.Json.dll
+E:\GithubNew\HospitalSecurity\bin\Owin.dll
+E:\GithubNew\HospitalSecurity\bin\reCAPTCHA.MVC.dll
+E:\GithubNew\HospitalSecurity\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\GithubNew\HospitalSecurity\bin\Twilio.dll
+E:\GithubNew\HospitalSecurity\bin\WebMatrix.Data.dll
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GithubNew\HospitalSecurity\bin\Microsoft.Owin.Security.xml
+E:\GithubNew\HospitalSecurity\bin\Newtonsoft.Json.xml
+E:\GithubNew\HospitalSecurity\bin\Twilio.xml
+E:\GithubNew\HospitalSecurity\bin\WebMatrix.Data.xml
+E:\GithubNew\HospitalSecurity\obj\Debug\HospitalManagament.dll
+E:\GithubNew\HospitalSecurity\obj\Debug\HospitalManagament.pdb
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\HospitalManagament.dll.config
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\HospitalManagament.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\HospitalManagament.pdb
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\JWT.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Newtonsoft.Json.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Owin.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\reCAPTCHA.MVC.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Twilio.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\WebMatrix.Data.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Newtonsoft.Json.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\Twilio.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\bin\WebMatrix.Data.xml
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.dll
+C:\Users\Intel\Desktop\HospitalSecurity-master (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.pdb
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.dll.config
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.pdb
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\JWT.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Newtonsoft.Json.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Owin.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\reCAPTCHA.MVC.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Twilio.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\WebMatrix.Data.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Newtonsoft.Json.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Twilio.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\WebMatrix.Data.xml
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.dll
+C:\Users\Intel\Desktop\dfsd\HospitalSecurity-master (1) (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.pdb
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.dll.config
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\HospitalManagament.pdb
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\JWT.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Newtonsoft.Json.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Owin.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\reCAPTCHA.MVC.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Twilio.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\WebMatrix.Data.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Microsoft.Owin.Security.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Newtonsoft.Json.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\Twilio.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\bin\WebMatrix.Data.xml
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.dll
+C:\Users\Intel\Desktop\ASP\HospitalSecurity-master (1) (1)\HospitalSecurity-master\obj\Debug\HospitalManagament.pdb
+E:\Github\ASPJ\HospitalSecurity-master\bin\HospitalManagament.dll.config
+E:\Github\ASPJ\HospitalSecurity-master\bin\HospitalManagament.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\HospitalManagament.pdb
+E:\Github\ASPJ\HospitalSecurity-master\bin\JWT.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.Security.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Web.Infrastructure.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Newtonsoft.Json.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Owin.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\reCAPTCHA.MVC.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Twilio.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\WebMatrix.Data.dll
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Microsoft.Owin.Security.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Newtonsoft.Json.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\Twilio.xml
+E:\Github\ASPJ\HospitalSecurity-master\bin\WebMatrix.Data.xml
+E:\Github\ASPJ\HospitalSecurity-master\obj\Debug\HospitalManagament.csprojResolveAssemblyReference.cache
+E:\Github\ASPJ\HospitalSecurity-master\obj\Debug\HospitalManagament.dll
+E:\Github\ASPJ\HospitalSecurity-master\obj\Debug\HospitalManagament.pdb

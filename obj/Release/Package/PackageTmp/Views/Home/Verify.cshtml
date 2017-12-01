@@ -1,0 +1,30 @@
+﻿@model HospitalManagament.Models.LoginModel
+
+@{
+    ViewBag.Title = "Verify";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="login-box">
+    <div class="white-box">
+
+        @using (Html.BeginForm("Verify", "Home", FormMethod.Post, new { @class = "form-horizontal form-material", @id = "loginform", data_toggle = "validator" }))
+        {
+            <a href="javascript:void(0)" class="text-center db"><img src="../plugins/images/eliteadmin-logo-dark.png" alt="Home" /><br /><img src="../plugins/images/eliteadmin-text-dark.png" alt="Home" /></a>
+
+            <div class="form-group m-t-40">
+                <div class="col-xs-12">
+                    @Html.TextBoxFor(u => u.VerificationCode, new { @class = "form-control", @placeholder = "Verification Code", @required = "required" })
+                </div>
+            </div>
+            <div style="color:red">
+                @Html.ValidationSummary()
+            </div>
+            <div class="form-group text-center m-t-20">
+                <div class="col-xs-12">
+                    <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Verify</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
